@@ -1,5 +1,5 @@
 body{
-	background-color: hsl(0, 0%, 98%);
+	background-color:aqua;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -12,6 +12,11 @@ h1,h2,h3,h4,h5,h6{
 	border-radius: 4px;
 	padding: 10px;
 }
+
+.bg-black{
+  background-color: #0d0e13;
+}
+
 
 .thumbnail{
 	width: 100%;
