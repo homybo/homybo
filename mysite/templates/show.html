@@ -1,0 +1,17 @@
+{%extends 'main.html'%}
+{%load static%}
+{%block content%}
+
+
+<div class="row" >
+    <div class="col-lg-5">
+        <div class="box-element product" >
+            <h3>Title：{{target.title}}</h3>
+            <h3>Content：{{target.content}}</h3>
+            <h3>Source：{{target.source}}</h3>
+            <a class="button" href="/home/"><h3>Home</h3></a>
+        </div>
+    </div>
+</div>
+
+{%endblock content%}

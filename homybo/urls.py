@@ -20,5 +20,8 @@ from mysite import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name="hello"),
-    path('home/',views.index,name="home")
+    path('home/',views.index,name="home"),
+    path('lotto/',views.lotto,name="lotto"),
+    path('showall/',views.showall,name="showall"),
+    path('show/',views.show,name="show")
 ]
